@@ -1,0 +1,11 @@
+jsonfield
+requests
+lxml
+psycopg2
+djangorestframework
+djangorestframework-gis
+markdown
+django-extensions
+django-filter==0.7
+werkzeug
+https://www.djangoproject.com/download/1.7c1/tarball/
