@@ -38,7 +38,6 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.gis',
     'django_extensions',
-    'alerts',
     'stations',
     'rest_framework'
 )
@@ -116,7 +115,7 @@ LOGGING = {
 # Third party
 
 REST_FRAMEWORK = {
-    'PAGINATE_BY': 20,
+    'PAGINATE_BY': 100,
     'MAX_PAGINATE_BY': 500,
     'PAGINATE_BY_PARAM': 'page_size',
     'DEFAULT_FILTER_BACKENDS': ('rest_framework.filters.DjangoFilterBackend',)
